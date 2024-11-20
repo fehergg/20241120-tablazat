@@ -1,11 +1,52 @@
 th, td {
-    border: 1px solid darkorange;
+    border: 1px solid rgb(0, 0, 0);
     padding: 0.5em;
     font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 table {
     border-collapse: collapse;
 }
 th {
-    background-color: antiquewhite;
+    background-color: rgb(43, 146, 160);
 }
+tr:nth-child(even) {
+    background-color: #114e9e;
+  }
+  .gradient_bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-positbion: 0% 50%;
+	}
+}
+tr {
+    background-color:rgb(94, 42, 161);
+}
+
+.center {
+    margin: auto;
+  }
