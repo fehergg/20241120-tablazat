@@ -1,0 +1,11 @@
+th, td {
+    border: 1px solid darkorange;
+    padding: 0.5em;
+    font-size: 32px;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: antiquewhite;
+}
