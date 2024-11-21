@@ -59,4 +59,6 @@ tr {
   th, td {
 	border-radius: 25px;
   }
-  td
+  h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
