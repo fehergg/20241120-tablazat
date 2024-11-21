@@ -3,12 +3,17 @@ th, td {
     padding: 0.5em;
     font-size: 32px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+	
 }
 table {
-    border-collapse: collapse;
 }
+
 th {
     background-color: rgb(43, 146, 160);
+	border-radius: 5px;
+	padding: 25px;
+	width: 200px;
+	height: 50px;
 }
 tr:nth-child(even) {
     background-color: #114e9e;
@@ -47,6 +52,11 @@ tr {
     background-color:rgb(94, 42, 161);
 }
 
+
 .center {
     margin: auto;
   }
+  th, td {
+	border-radius: 25px;
+  }
+  td
