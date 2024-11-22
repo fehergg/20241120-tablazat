@@ -5,8 +5,7 @@ th, td {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 	
 }
-table {
-}
+
 
 th {
     background-color: rgb(43, 146, 160);
@@ -60,5 +59,6 @@ tr {
 	border-radius: 25px;
   }
   h1 {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family:'Courier New', Courier, monospace;
+	text-align: center;
   }
